@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  /* Използваме модерен системен шрифт, който изглежда еднакво добре навсякъде */
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Правим така, че всички бутони и инпути да вземат същия шрифт */
+button, input, select, textarea {
+  font-family: inherit;
+}
